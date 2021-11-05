@@ -1,0 +1,34 @@
+{
+  "mahasiswa": [
+    {
+      "id": "1",
+      "nim": "31293",
+      "nama": "Joko Tejo",
+      "alamat": "Jl. Scientia Boulevard, Gading, Kec. Serpong, Tangerang, Banten"
+    },
+    {
+      "id": "2",
+      "nim": "30083",
+      "nama": "Kambali Caraka Waluyo",
+      "alamat": "Jl. Ki. Nanas No. 522, Gorontalo 18417, KalUt"
+    },
+    {
+      "id": "3",
+      "nim": "80582",
+      "nama": "Kenari Marpaung",
+      "alamat": "Jl. Ds. Flores No. 973, Denpasar 99286, JaTim"
+    },
+    {
+      "id": "4",
+      "nim": "44179",
+      "nama": "Taswir Maulana",
+      "alamat": "Jl. Pasirkoja No. 130, Pasuruan 35338, KalSel"
+    },
+    {
+      "id": "5",
+      "nim": "13935",
+      "nama": "Rachela",
+      "alamat": "Jln. Umalas No. 936, Samarinda 70123, KalTim"
+    }
+  ]
+}

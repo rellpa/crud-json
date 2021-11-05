@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UTS | PTI</title>
+	<link rel="icon" href="https://img.icons8.com/pastel-glyph/50/000000/person-male.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--FONTs-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+	<!--HEADER-->
+	<div>
+		<nav class="black">
+            <li>
+            	<a href="index.html">DATA&nbsp;<i>MAHASISWA</i> ||</a>
+            </li>
+		</nav>
+	</div>
+	<div class="rightleftpadd">
+		<div class="welcome">
+			<h1>Annyeong !<span id="clock" style="float: right; margin-top: 5px;"></span></h1>
+		</div>
+		<hr>
+		<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</i></p>
+		<hr>
+	</div>
+
+	<!--TABLEs-->
+	<div class="title rightleftpadd">
+		<h2 style="padding-top: 8px; padding-bottom: 8px;"><span>Data </span>Mahasiswa<span style="float: right;"><button class="addBtn" id="addBtn">✚&nbsp;&nbsp;&nbsp;Tambah Data</button></span></h2>
+		
+		<table  style="width: 100%;">
+			<thead>
+				<tr>
+					<th style="width: 10%;" id="nim">NIM</th>
+					<th id="nama">Nama</th>
+					<th id="alamat">Alamat</th>
+					<th style="width: 12%;" id="pengaturan">Pengaturan</th>
+				</tr>
+				<tr id="nodata">
+					<td style="text-align: center;" colspan="4"><i>No Data</i></td>
+				</tr>
+			</thead>
+			<tbody id="mhs">
+			</tbody>
+		</table>
+	</div>
+
+	
+	<!--formMODAL-->
+	<div id="formModal" class="modal">
+
+		<!--CONTENT-->
+		<div class="form-modal-content">
+
+			<!--form-->
+			<div class="form">
+				<form id="formSubmit">
+					
+					<div class="form-modal-header">
+						<h1>Tambah Data<span class="close">&times;</span></h1>
+					</div>
+
+					<div class="form-modal-body">
+						<!--NIM-->
+						<br>
+						<label for="NIM">NIM</label>
+						<input type="tel" id="NIM" pattern="[0-9]{5}" onkeydown="return event.keyCode !== 69" title="*5-digit angka" placeholder="Nomor Induk Mahasiswa"><br><br>
+		
+						<!--Nama-->
+						<label for="Nama">Nama Lengkap</label>
+						<input type="text" id="Nama" placeholder="Nama Lengkap"><br><br>
+		
+						<!--Alamat-->
+						<label for="Alamat">Alamat</label>
+						<input style="margin-bottom: 0;" type="text" id="Alamat" placeholder="Alamat Tempat Tinggal Asal"><br><br>
+					</div>
+					
+					<!--button-->
+					<div class="form-modal-footer">
+						<input class="resetBtn" type="reset" value="⭯&nbsp;&nbsp;RESET">
+						<input class="submitBtn" type="submit" value="✚&nbsp;&nbsp;TAMBAH">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<!--footer-->
+	<div class="black footer">
+		<p><i>Created by : Michael Fareliandira | 41167</i></p>
+	</div>
+
+<script src="script.js"></script>
+</body>
+</html>
